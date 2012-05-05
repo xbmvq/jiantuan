@@ -29,7 +29,7 @@ body {
 .nav .nav_global {
 }
 .nav .nav_global ul {
-	padding: 0px 15px;
+	padding: 0px 50px;
 }
 .nav .nav_global li {
 	cursor:pointer;
@@ -40,7 +40,7 @@ body {
 	line-height: 33px;
 	font-weight: bold;
 	color: #FF6;
-	padding:0px;
+	padding:0px 35px;
 	margin:0px;
 	border-spacing:0px;
 	padding-right: 2px;
@@ -200,8 +200,11 @@ border-right: 1px solid #f3ecd7;
        border-right: 1px solid #f3ecd7;
 }
 .box_1 {
-	border: 1px solid #f3ecd7;
-	border-width: 1px 1px 1px 1px;
+	border:none;
+	margin:20px;
+	padding:0px;
+	border-spacing:0px;
+	width:300px;
 }
 .box {
 	border: 1px solid #f3ecd7;
