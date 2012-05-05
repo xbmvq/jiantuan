@@ -1,0 +1,278 @@
+A {
+	FONT-SIZE: 12px
+}
+BODY {
+	FONT-SIZE: 12px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+OPTION {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-SIZE: 12px
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+TR {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+
+a:hover {
+	COLOR: #ff0228; TEXT-DECORATION: none;FONT-SIZE: 12px;
+}
+.S1 {
+	BACKGROUND-IMAGE: url(http://www.bjyouth.gov.cn/img10/dlm_mu.jpg)
+}
+.S2 {
+	BACKGROUND-IMAGE: url(http://www.bjyouth.gov.cn/img10/dlm_mo.jpg)
+}
+.SS {
+	COLOR: #000000; FONT-SIZE: 12px
+}
+.SS:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.AW {
+	LINE-HEIGHT: 20px; COLOR: #ffffff; FONT-SIZE: 12px
+}
+.AW:hover {
+	COLOR: #fffb9d; TEXT-DECORATION: none
+}
+.AW2 {
+	COLOR: #ffffff; FONT-SIZE: 14px;font-weight:bold
+}
+.AW2 a{
+	COLOR: #ffffff; FONT-SIZE: 14px; font-weight:bold
+}
+.AW2 a:hover {
+	COLOR: #fffb9d; TEXT-DECORATION: none;FONT-SIZE: 14px;font-weight:bold
+}
+.AW2 a:visited {
+	COLOR: #000000; FONT-SIZE: 14px; font-weight:bold
+}
+.AW2 a:active {
+	FONT-STYLE: normal; COLOR: #000000; FONT-SIZE: 14px;font-weight:bold
+}
+.AR2 {
+	COLOR: #cc3300; FONT-SIZE: 12px
+}
+.AR2:hover {
+	COLOR: #cc3300; TEXT-DECORATION: underline
+}
+.BR2 {
+	COLOR: #293f82; FONT-SIZE: 12px
+}
+.BR2:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.ZXGX {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.ZXGX:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.TP {
+	COLOR: #0000ff; FONT-SIZE: 12px
+}
+.TP:hover {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.td0 {
+	LINE-HEIGHT: 20px
+}
+.td1 {
+	PADDING-TOP: 4px
+}
+.td2 {
+	BACKGROUND-IMAGE: url(http://www.bjyouth.gov.cn/img10/..bg_line.gif)
+}
+.td3 {
+	LINE-HEIGHT: 23px; PADDING-TOP: 2px
+}
+.td4 {
+	LINE-HEIGHT: 19px; PADDING-TOP: 2px
+}
+.tb:hover {
+	TEXT-DECORATION: none
+}
+.tr {
+	COLOR: #ff0000; FONT-WEIGHT: normal
+}
+.tr:hover {
+	TEXT-DECORATION: none
+}
+.tbr {
+	COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.tbr:hover {
+	TEXT-DECORATION: none
+}
+.tb2 {
+	COLOR: #0000ff; FONT-SIZE: 12px
+}
+.tb2:hover {
+	TEXT-DECORATION: none
+}
+.ct {
+	COLOR: #ff0000; FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.cc {
+	LINE-HEIGHT: 180%; COLOR: #000000; FONT-SIZE: 14px
+}
+.cmax {
+	LINE-HEIGHT: 180%; COLOR: #000000; FONT-SIZE: 16px
+}
+.cmin {
+	LINE-HEIGHT: 180%; COLOR: #000000; FONT-SIZE: 12px
+}
+.minput {
+	BORDER-BOTTOM: #e67d1d 1px solid; BORDER-LEFT: #e67d1d 1px solid; BACKGROUND-COLOR: #ffffff; WIDTH: 70px; BORDER-TOP: #e67d1d 1px solid; BORDER-RIGHT: #e67d1d 1px solid
+}
+.binput {
+	BORDER-BOTTOM: #2461a5 1px solid; BORDER-LEFT: #2461a5 1px solid; BACKGROUND-COLOR: #ffffff; WIDTH: 90px; BORDER-TOP: #2461a5 1px solid; BORDER-RIGHT: #2461a5 1px solid
+}
+.pd {
+	COLOR: #999999
+}
+.wjt {
+	FONT-FAMILY: ºÚÌå; COLOR: red; FONT-SIZE: 26px; FONT-WEIGHT: bolder
+}
+.wjt1 {
+	FONT-FAMILY: ºÚÌå; COLOR: red; FONT-SIZE: 26px; FONT-WEIGHT: bolder
+}
+.wjt2 {
+	COLOR: #000000; FONT-WEIGHT: bold
+}
+.wjd {
+	COLOR: #cc3300
+}
+.jf {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-COLLAPSE: collapse; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.jf1 {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.jf2 {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+.dspd {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-COLLAPSE: collapse; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.dspd1 {
+	BORDER-BOTTOM: #40b857 1px solid; BORDER-RIGHT: #40b857 1px solid
+}
+.dspd2 {
+	BORDER-BOTTOM: #2eb05a 1px solid; BORDER-RIGHT: #2eb05a 1px solid
+}
+.xxh1 {
+	LETTER-SPACING: 4px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.xxh2 {
+	PADDING-LEFT: 100px; FONT-FAMILY: ºÚÌå; COLOR: #ff0000; FONT-SIZE: 32px
+}
+.xxh3 {
+	COLOR: #ff0000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.xxh4 {
+	FONT-STYLE: italic; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.xxh5 {
+	COLOR: #0000ff; FONT-SIZE: 14px
+}
+.xxh5:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.xxh5:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.flashtext1 {
+	CURSOR: hand; BEHAVIOR: url(http://www.bjyouth.gov.cn/img10/myText_0.htc)
+}
+.flashtext2 {
+	CURSOR: hand; BEHAVIOR: url(http://www.bjyouth.gov.cn/img10/myText_1.htc)
+}
+.rainbowtext {
+	BEHAVIOR: url(http://www.bjyouth.gov.cn/img10/rainbowtext.htc)
+}
+.bs {
+	LINE-HEIGHT: 20px; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.bs {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.bs:visited {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.bs:active {
+	FONT-STYLE: normal; COLOR: #000000; TEXT-DECORATION: none
+}
+A.bs:hover {
+	FONT-STYLE: normal; COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.bs1 {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.bs1:visited {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.bs1:active {
+	FONT-STYLE: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.bs1:hover {
+	FONT-STYLE: normal; COLOR: #fffb9d; TEXT-DECORATION: none
+}
+.c {
+	COLOR: #ff9900
+}
+.c1 {
+	COLOR: #ff9900; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+#topmenu UL {
+	TEXT-ALIGN: center; LIST-STYLE-TYPE: none; DISPLAY: inline; PADDING-TOP: 11px !important
+}
+#topmenu LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; WIDTH: 65px; DISPLAY: block; BACKGROUND: url(http://www.bjyouth.gov.cn/img10/dlm_mu.jpg) no-repeat; FLOAT: left; HEIGHT: 25px; VERTICAL-ALIGN: middle
+}
+#topmenu LI A {
+	DISPLAY: block; BACKGROUND: url(http://www.bjyouth.gov.cn/img10/dlm_mu.jpg) no-repeat; HEIGHT: 25px
+}
+#topmenu LI A:hover {
+	BACKGROUND: url(http://www.bjyouth.gov.cn/img10/dlm_mo.jpg) no-repeat; HEIGHT: 25px; TEXT-DECORATION: none
+}
+#rightdiv {
+	BACKGROUND-IMAGE: url(http://www.bjyouth.gov.cn/img10/index_bg_right.gif); Z-INDEX: 1; POSITION: absolute; WIDTH: 224px; HEIGHT: auto; TOP: 0px; LEFT: 776px
+}
+img { margin-right:4px}
+form, ul, li, p, h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+}
+ul, li {
+	list-style-type:none;
+}
+.jjxx { width:260px}
+ .jjxx li{
+	padding-left:8px;
+	margin-left:8px;
+	font-size:12px;
+	background:url(ywdd-300.gif) no-repeat;
+	background-position:left center;
+	line-height:24px;}
+	.jjxx ul{
+
+	background:url(bg_line2.gif);
+	}
+	
+	

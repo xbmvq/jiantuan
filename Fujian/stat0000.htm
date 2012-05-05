@@ -1,0 +1,27 @@
+function gv_cnzz(of){
+	var es = document.cookie.indexOf(";",of);
+	if(es==-1) es=document.cookie.length;
+	return unescape(document.cookie.substring(of,es));
+}
+function gc_cnzz(n){
+	var arg=n+"=";
+	var alen=arg.length;
+	var clen=document.cookie.length;
+	var i=0;
+	while(i
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<clen){ var j="i+alen;" if(document.cookie.substring(i,j)="=arg)" return gv_cnzz(j); i="document.cookie.indexOf(&quot;" ",i)+1; if(i="=0)" break; } -1; cnzz_ed="new" date(); cnzz_now="parseInt(cnzz_ed.getTime());" cnzz_ref="document.referrer;" cnzz_data="&amp;r=" +escape(cnzz_ref.substr(0,512))+'&lg="+escape(navigator.systemLanguage)+" &ntime="0.88816200" 1336061387'; cnzz_a="gc_cnzz(&quot;cnzz_a1891188&quot;);" if(cnzz_a!="-1)" else cnzz_rt="parseInt(gc_cnzz(&quot;rtime&quot;));" cnzz_lt="parseInt(gc_cnzz(&quot;ltime&quot;));" cnzz_st="parseInt((cnzz_now-cnzz_lt)/1000);" cnzz_sin="gc_cnzz(&quot;sin1891188&quot;);" if(cnzz_sin="=-1)" ; if( cnzz_ref.split(' ')[2]!="document.domain" ) cnzz_eid="gc_cnzz(&quot;cnzz_eid&quot;);" if(cnzz_eid="=-1)" if(cnzz_lt<1000000){cnzz_rt="0;cnzz_lt=0;}" if(cnzz_rt<1) if(((cnzz_now-cnzz_lt)>500*86400)&amp;&amp;(cnzz_lt&gt;0)) cnzz_rt++;
+cnzz_data=cnzz_data+'&amp;repeatip='+cnzz_a+'&amp;rtime='+cnzz_rt+'&amp;cnzz_eid='+escape(cnzz_eid)+'&amp;showp='+escape(screen.width+'x'+screen.height)+'&amp;st='+cnzz_st+'&amp;sin='+escape(cnzz_sin.substr(0,512))+'&amp;res=0';
+document.write('<a href="http://www.cnzz.com/stat/website.php?web_id=1891188" target="_blank" title="站长统计">站长统计</a>');
+document.write('<img src="http://hzs8.cnzz.com/stat.htm?id=1891188'+cnzz_data+'" border="0" width="0" height="0">');
+
+var cnzz_et=(86400-cnzz_ed.getHours()*3600-cnzz_ed.getMinutes()*60-cnzz_ed.getSeconds());
+cnzz_ed.setTime(cnzz_now+1000*(cnzz_et-cnzz_ed.getTimezoneOffset()*60));
+document.cookie="cnzz_a1891188="+cnzz_a+";expires="+cnzz_ed.toGMTString()+ "; path=/";
+document.cookie="sin1891188="+escape(cnzz_sin)+ ";expires="+cnzz_ed.toGMTString()+";path=/";
+cnzz_ed.setTime(cnzz_now+1000*86400*182);
+document.cookie="rtime="+cnzz_rt+";expires="+cnzz_ed.toGMTString()+ ";path=/";
+document.cookie="ltime="+cnzz_now+";expires=" + cnzz_ed.toGMTString()+ ";path=/";
+document.cookie="cnzz_eid="+escape(cnzz_eid)+ ";expires="+cnzz_ed.toGMTString()+";path=/";
+
+<!-- This document saved from http://s175.cnzz.com/stat.php?id=1891188&web_id=1891188 -->

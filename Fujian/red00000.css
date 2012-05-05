@@ -1,0 +1,116 @@
+body {
+	
+	background-image:url(gongqing.jpg); background-position:top center; background-repeat:no-repeat
+	
+}
+.expo_nav {
+
+	background-image: url(top_dh00.gif);
+}
+a{color:#000000;}
+a.lchot{color:#bd0a01;}
+a.lchot:visited{color:#bd0a01;}
+.fc30{color:#3d464b;}
+
+#TextNav {color:#3d464b;}#TextNav a:hover,#TextNav a.lcnew:hover{background-color:#F00;}
+#ppMainDesc a {cursor:pointer;color:#000000;font-size:12px;}
+#ppMenu ul li{color:#fc002a;}
+#ppMain{height:164px;border:solid #ff9763;border-width:1px 1px 0;overflow:hidden; }
+#ppFoot{height:3px;background:url(scale_01.png) 0 -33px no-repeat;overflow:hidden;}
+#ppMenu ul{height:23px;overflow:hidden;}
+#ppMenu ul li{width:70px;height:23px;float:left;overflow:hidden;background:url(scale_01.png) -73px 0 no-repeat;text-align:center;cursor:pointer;font-size:12px;margin-right:3px}
+#ppMenu ul li.ppMenuHere{background:url(scale_01.png) 0 0 no-repeat;font-weight:bold; width:70px}
+
+#tabs1 {background-color:#fef8e6;}
+#tabs1,#tabs1 .at,#tabs1 .def{ background-image:url(http://www.bjyouth.gov.cn/img10/tabs_01_bg.png); background-repeat:repeat-x;}
+#tabs1_con {width:958px;margin:0 auto;border:solid #ff9763;border-width:0px 1px 1px;}
+
+#Wealth,#Wealth a{color:#fff;}
+#def div{background:url(skinbt00.png) no-repeat -14px 0px;}
+
+#SosoArea input.w,#SosoArea input.bot,#sosoFod,#sosoFod h3.s,#sosoFod h3.s1,
+#proNav,
+#News,#finance,#car,#tech,#edu,#kid,#astro,
+#News h4,#News h4.s,#News span h4,#News span h4.s,
+#finance h4,#car h4,#tech h4,#edu h4,#kid h4,#astro h4,
+#finance h4.s,#car h4.s,#tech h4.s,#edu h4.s,#kid h4.s,#astro h4.s,
+#financeInfo form input.i,
+#today,#blog,#vfoucs,#video,#sports,#ent,#lady,#book,#game,#comic,
+.res_b,.pro_b,
+#adAreaA,#adAreaA h3,#adAreaA h3.s,.adAreaA_t,.newsAreaA_t,.adAreaA_b,.newsAreaA_b,
+#adAreaB,#adAreaB h3,#adAreaB h3.s,.adAreaB_t,.adAreaB_b
+{background-image:url(skincn00.png);background-repeat:no-repeat;}
+
+
+
+#proNav{background-position:0 -270px;}
+#proNav span{color:#6e717d}
+#proNav a{color:#3d464b;}
+#proNav a:hover{color:#fff;background:#9aa7ad;}
+#proNav a.m{color:#696768;}
+
+#proArea_banner{background:#f6f7f8;}
+
+#News,#finance,#car,#tech,#edu,#kid,#astro{background-position:0 -110px;}
+
+#News h4{color:#333;background-position:-80px -160px;}
+#News h4.s{color:#333;background-position:-80px -190px;}
+#News span h4{background-position:-80px -160px;}
+#News span h4.s {background-position:-80px -190px;}
+#finance h4,#car h4,#tech h4,#edu h4,#kid h4,#astro h4{color:#333;background-position:0 -160px;}
+#finance h4.s,#car h4.s,#tech h4.s,#edu h4.s,#kid h4.s,#astro h4.s{color:#333;background-position:0 -190px;}
+
+#NewsInfo h3 a{color:#3d464b;}
+#NewsInfo h3 a.visited{color:#800080}
+
+
+#NewsInfo,#financeInfo,#carInfo,#techInfo,#eduInfo,#kidInfo,#astroInfo{border-left:1px solid #e6c48f;border-right:1px solid #e6c48f;}
+
+#today,#blog,#vfoucs,#video,#sports,#ent,#lady,#book,#game,#comic{color:#333;background-position:0 -225px;}
+#video .fr a{color:#a5752a;}
+#todayInfo,#blogInfo,#vfoucsInfo,#videoInfo,#sportsInfo,#entInfo,#ladyInfo,#bookInfo,#gameInfo,#comicInfo{border-left:1px solid #D4D4D4;border-right:1px solid #D4D4D4;}
+
+.res_b{background-position:0 -145px;}.pro_b{background-position:0 -255px;}
+
+.adArea h5,.adArea h5 a{color:#5f5f5f;}
+.newsArea h5, .newsArea h5 a, .newsArea a:hover{color:#fc002a;}
+
+#adAreaAInfo,#adAreaBInfo,#adAreaC,#adAreaD,#adAreaE,#adAreaP,#adAreaS{border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;background:#fffcf6}
+#newsAreaD{border-left:1px solid #ff9763;border-right:1px solid #ff9763;background:#fef8e6;	background-image:url(newsh5bg.gif);
+	background-repeat:no-repeat}
+.workArea, #dyleft, #dycenter{border-left:1px solid #ff9763;border-right:1px solid #ff9763;border-bottom:1px solid #ff9763;	background-image:url(work_top.gif); background-repeat:repeat-x}
+
+#adAreaBInfo{background:#fff;}
+.jcxx{ background-image:url(jcxx_bg0.gif)}
+
+#adAreaAInfo a,#adAreaA a,#adAreaBInfo a,#adAreaB a,#adAreaC a,#adAreaD a,#adAreaE a,#adAreaP a,#adAreaS a{color:#5f5f5f;}
+#newsAreaD a{color:#000000;}
+#newsAreaD h5 a{color:#fc002a;}
+#gzyj a{color:#000000;}
+#gzyj h5 a{color:#fc002a;}
+#adAreaAInfo a:hover,#adAreaA a:hover,#adAreaBInfo a:hover,#adAreaB a:hover,#adAreaC a:hover,#newsAreaD a:hover,#gzyj a:hover, #adAreaD a:hover,#adAreaE a:hover,#adAreaP a:hover,#adAreaS a:hover{color:#bd0a01;}
+#adAreaAInfo a.lchot,#adAreaBInfo a.lchot,#adAreaC a.lchot,#adAreaD a.lchot,#adAreaE a.lchot,#adAreaP a.lchot,#adAreaS a.lchot{color:#bd0a01;}
+#adAreaAInfo a.lcbhot,#adAreaBInfo a.lcbhot,#adAreaC a.lcbhot,#adAreaD a.lcbhot,#adAreaE a.lcbhot,#adAreaP a.lcbhot,#adAreaS a.lcbhot{color:#bd0a01;font-weight:bold;}
+
+#adAreaA{background-position:-175px -160px;}
+#adAreaA h3{color:#5f5f5f;background-position:-175px -10px;}
+#adAreaA h3.s{background-position:-225px -10px;}
+.adAreaA_t{background-position:0 -260px;}
+.newsAreaA_t{background-position:0 -412px;}
+.adAreaA_b{background-position:0 -264px;}
+.newsAreaA_b{background-position:0 -416px;}
+
+#adAreaB{background-position:-175px -190px;}
+#adAreaB h3{color:#5f5f5f;background-position:-280px -10px;}
+#adAreaB h3.s{background-position:-320px -10px;}
+.adAreaB_t{background-position:-200px -260px;}
+.adAreaB_b{background-position:-200px -264px;}
+
+#adAreaS span{color:#a5752a;}
+#adAreaS span a{color:#a5752a;}
+#b-left{ background-image:url(http://www.bjyouth.gov.cn/img10/zhy_cc.gif);background-repeat:no-repeat;}
+   #b-center{ background-image: url(http://www.bjyouth.gov.cn/img10/gy_cy.gif);background-repeat:no-repeat;}
+   #b-right{ background-image: url(leadsay0.gif);background-repeat:no-repeat;
+}
+.gzdt .fl a{ color:#F00; 
+}

@@ -1,0 +1,1898 @@
+@charset "gb2312";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0 0 12px 0;
+	font-size:12px;
+	line-height:22px;
+	font-family:"宋体", "Arial Narrow";
+}
+form, ul, li, p, h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+}
+input, select {
+	font-size:12px;
+	line-height:16px;
+}
+img {
+	border:0;
+}
+ul, li {
+	list-style-type:none;
+}
+.tc {
+	text-align:left;
+}
+.tl {
+	text-align:left;
+}
+.tr {
+	text-align:right;
+}
+.dis {
+	display:block;
+}
+.undis {
+	display:none;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.cl {
+	clear:both; height:4px
+}
+.fb {
+	font-weight:bold;
+}
+.fnb {
+	font-weight:200;
+	margin-left:-1px;
+}
+.f11 {
+	font-size:12px;
+	font-family:tahoma;
+}
+div {
+	overflow:hidden;
+}
+h3 {
+	font-size:14px;
+}
+h4 {
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	cursor:pointer;
+	overflow:hidden;
+}
+h4 a {
+	width:100%;
+	height:100%;
+	display:block;
+}
+a {
+	color:#00007F;
+	text-decoration:none;
+}
+a:hover {
+	color:#bd0a01;
+	text-decoration:underline;
+}
+a.lcblue {
+	color:#0F479C;
+}
+.lchot, a.lchot {
+	color:#bd0a01;
+}
+.black, a.black {
+	color:#000;
+}
+.hr_6, .hr_10 {
+	font-size:1px;
+	line-height:1px;
+	clear:both;
+	
+}
+.hr_6 {
+	height:6px;
+	margin:0 auto;
+	background-color:#FFF;
+	width:960px;
+}
+.hr_10 {
+	height:10px;
+}
+/*#Soso { background-image:url(/img10/top-fla.gif)}*/
+/*迷你导航*/
+#miniNav {
+	height:30px;
+	border-bottom:1px solid #e6e6e6;
+	background:#f8f8f8;
+	width:960px;
+	margin:0 auto;
+	color:#000000;
+	text-align:center;
+	/*line-height:11px;*/
+}
+
+#miniNav a {
+	color:#f30101;
+	/*margin:0 3px;*/
+	font-size:12px;
+	text-decoration:none;
+	/*padding:1px 3px 1px 3px;*/
+	display:block;
+	float:left;
+}
+.minput {width:70px; border: 1px solid #E67D1D; background-color:#FFFFFF;}
+.binput {width:90px; border: 1px solid #2461A5; background-color:#FFFFFF;}
+
+#miniNav a:hover {
+	color:#fb3102;
+	/*background:#f0efef;*/
+}
+
+#TextNav a {
+	margin:2px 0;
+	padding:2px 8px 0px 8px;
+	font-size:12px;
+	
+	font-family:"宋体", "Arial Narrow";
+}
+#TextNav a.lcnew {
+	background:url(http://www.bjyouth.gov.cn/img10/9468357.gif) no-repeat 31px -37px;
+}
+#TextNav a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+#TextNav a.lcnew:hover {
+	color:#fff;
+	background-image:url(http://www.bjyouth.gov.cn/img10/9468357.gif);
+	background-position:31px -37px;
+	background-repeat:no-repeat;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+#TextNav * {
+font-family:STSong;
+}
+}
+/*导航*/
+.expo_nav {
+	width:960px;
+	height:68px;
+	margin:0 auto;
+	
+}
+.expo_nav div {
+	float:left;
+	padding-top:2px;
+	font-size:12px;
+	line-height:22px;
+}
+.expo_nav .b {
+	margin-right:18px;
+	font-weight:bold;
+}
+.expo_nav .line {
+	width:24px;
+	height:65px;
+	padding:0;
+	background:url(expo_lin.gif) 16px 2px no-repeat;
+}
+.expo_logo {
+	width:140px;
+	height:65px;
+	padding-top:5px;
+	text-align:center;
+	color:#F00
+}
+.expo_logo a {
+	font-size:12px;
+	color:#F00;
+	font-family:"宋体", "Arial Narrow";
+}
+/*soso*/
+#Soso {
+	width:960px;
+	height:128px;
+	margin:0 auto;
+}
+/*皮肤列表*/
+#Skin div {
+	float:right
+}
+#SkinList {
+	width:56px;
+	height:11px;
+	overflow:hidden;
+	display:block;
+	margin-right:8px;
+}
+#Skin li {
+	float:left;
+	width:14px;
+	height:11px;
+	cursor:pointer;
+}
+#def div, #s1 div, #s2 div, #s3 div, #s4 div, #s5 div, #s6 div, #s7 div, #s8 div, #s9 div, #sar div {
+	background-image:url(skinbt00.png);
+	background-repeat:no-repeat;
+}
+#def div {
+	background-position:0 0;
+}
+#s1 div {
+	background-position:0 -11px;
+}
+#s2 div {
+	background-position:0 -22px;
+}
+#s3 div {
+	background-position:0 -33px;
+}
+#SosoArea {
+	width:465px;
+	padding:0px 0 0 0;
+	float:left;
+}
+#SosoAd {
+	float:left;
+}
+.more_img{ background-image:url(more0000.png); background-repeat:no-repeat; background-position:right; padding-right:20px}
+
+/*内容部分通用class*/
+.cArea {
+	width:960px;
+	margin:0 auto;
+	clear:both;
+	z-index:1;
+	background-color:#FFF
+}
+.txArea {
+	width:788px;
+	float:left;
+}
+.txArea_4 {
+	width:960px;
+	float:left;
+}
+.txArea_4 img { margin:0 4px
+}
+.txArea2 {
+	width:714px;
+	float:left;
+}
+.txAreagg {
+	width:614px;
+	float:left;
+}
+.resArea {
+	width:390px;
+	float:left;
+}
+.workArea {width:736px;float:right; margin-bottom:4px;height:296px;}
+.proArea {
+	width:390px;
+	;
+	float:right;
+}
+.worknewsArea {
+	width:340px;
+	margin-top:8px;
+	float:right;
+}
+#picArea {
+	width:386px;
+	margin-top:6px;
+	margin-left:4px;
+	margin-bottom:5px;
+	float:left;
+}
+.adArea {
+	width:186px;
+	float:right
+}
+.newsArea {
+	width:216px;
+	float:left
+}
+.jcxx_2 {
+	width:280px;
+	float:right;
+	margin:8px 4px;
+	padding-left:12px
+}
+.adArea1 {
+	width:162px;
+	float:right
+}
+.adArea1 img {
+	width:162px;
+	float:right;
+	margin:2px 0px;
+}
+.adArea4 {
+	width:212px;
+	float:right
+}
+.adAreagg {
+	width:286px;
+	float:right
+}
+.adMArea {
+	clear:both;
+	padding-top:10px;
+}
+.imgRArea, .imgRArea1 {
+	float:left;
+	padding-top:4px;
+}
+.imgLAreapic {
+	float:left;
+	width:128px;
+	height:200px;
+	padding-top:2px;
+	text-align:center;
+}
+.imgLAreapic img {
+	width:115px;
+	height:70px;
+	border:#dddddd 1px solid;
+	margin-bottom:2px;
+}
+.imgLAreapic a.t {
+	display:block;
+	width:117px;
+	height:21px;
+	margin:0 auto;
+	font-size:12px;
+	color:#333;
+	line-height:20px;
+	background:#f1f1f1;
+}
+.textArea {
+	padding:4px 0 0 0;
+	line-height:24px;
+	clear:both;
+}
+.res_b, .pro_b {
+	height:2px;
+}
+.dotline {
+	font:0;
+	line-height:0;
+	height:1px;
+	background:url(skin1v30.png) top repeat-x;
+	clear:both;
+}
+.vico {
+	padding-right:21px;
+	background:url(http://www.bjyouth.gov.cn/img10/vico1.png) right center no-repeat;
+}
+/*内容链接颜色控制*/
+#NewsInfo a.lchot, #sportsInfo a.lchot, #financeInfo a.lchot, #techInfo a.lchot, #carInfo a.lchot, #eduInfo a.lchot, #vfoucsInfo a.lchot, #entInfo a.lchot, #gameInfo a.lchot, #comicInfo a.lchot, #bookInfo a.lchot, #ladyInfo a.lchot, #comicInfo a.lchot {
+	color:#bd0a01;
+}
+#NewsInfo a.black, #sportsInfo a.black, #financeInfo a.black, #techInfo a.black, #carInfo a.black, #eduInfo a.black, #vfoucsInfo a.black, #entInfo a.black, #gameInfo a.black, #comicInfo a.black, #bookInfo a.black, #ladyInfo a.black, #comicInfo a.black {
+	color:#000;
+}
+#NewsInfo a.black:hover, #sportsInfo a.black:hover, #financeInfo a.black:hover, #techInfo a.black:hover, #carInfo a.black:hover, #eduInfo a.black:hover, #vfoucsInfo a.black:hover, #entInfo a.black:hover, #gameInfo a.black:hover, #comicInfo a.black:hover, #bookInfo a.black:hover, #ladyInfo a.black:hover, #comicInfo a.black:hover {
+	color:#000;
+}
+/*左边频道栏目*/
+#kid, #astro {
+	height:23px;
+}
+ #kidInfo, #astroInfo {
+	padding:6px 4px 0 2px;
+	color:#BAB9B9;
+	font-size:12px;
+	line-height:23px;
+}
+#kidInfo {
+	height:160px;
+}
+#astroInfo {
+	height:118px;
+}
+#NewsInfo .imgRArea li, #NewsInfo .imgRArea1 li, #financeInfo .imgRArea li, #carInfo .imgRArea li, #techInfo .imgRArea li, #eduInfo .imgRArea li, #kidInfo .imgRArea li, #astroInfo .imgRArea li {
+	padding-left:12px;
+	font-size:12px;
+	background:url(skin1v30.png) -396px -262px no-repeat;
+}
+/* */
+#kid h4, #astro h4 {
+	float:left;
+	width:73px;
+	height:20px;
+	margin-right:1px;
+	padding-top:3px;
+	font-weight:200;
+	line-height:20px;
+	text-align:center;
+	overflow:hidden;
+}
+#kid h4.s, #astro h4.s {
+	font-weight:bold;
+}
+/*中间一栏*/
+#game, #comic {
+	width:366px;
+	height:21px;
+	padding:2px 12px 0 12px;
+	font-size:14px;
+	font-weight:bold;
+	overflow:hidden;
+}
+.gzdt{
+	width:210px;
+	height:21px;
+	padding:2px 12px 0 12px;
+	font-size:12px;
+	
+	overflow:hidden;
+}
+#game .fr, #comic .fr {
+	font-size:12px;
+	font-weight:normal;
+}
+#gzdtInfo 
+ {
+	width:320px;
+	padding:4px 10px 0 6px;
+	font-size:12px;
+	line-height:24px;
+	color:#000000;
+}
+#gzdtInfo .textArea li
+ {
+   width:316px; white-space:nowrap;overflow:hidden;  text-overflow:ellipsis; word-break:break-all;
+}
+#gzdtInfo .textArea li a
+{
+  font-size:12px;
+
+}
+/*今日话题*/
+.gzdt .fl {
+	font-size:14px;
+	font-weight:bold;
+}
+.gzdt .fl a{ color:#F00; 
+}
+#gzdtInfo h1 {
+	padding-top:2px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	height:40px;
+	vertical-align:middle;
+}
+#gzdtInfo h1 a:hover {
+	color:#bd0a01;
+}
+#gzdtInfo h1 a {
+	color:#0266a5;
+}
+/*广告区域标题*/
+.adArea h5 {
+	font-size:12px;
+	font-weight:bold;
+	margin:-8px 6px 4px 0;
+	line-height:20px;
+	border-bottom:#d4d4d4 1px solid;
+}
+.newsArea h5 {
+	font-size:14px;
+	font-weight:bold;
+	margin:-8px 6px 4px 0;
+	line-height:20px;
+	border-bottom:#d4d4d4 1px solid;
+}
+.jcxx_2 h5 {
+	font-size:14px;
+	font-weight:bold;
+	margin:4px 6px 4px 0;
+	line-height:24px;
+	border-bottom:#d4d4d4 1px solid;
+}
+.adArea a.lchot {
+	color:#bd0a01;
+}
+#adAreaAInfo, #adAreaBInfo, #adAreaC, #adAreaD,#newsAreaD, #adAreaE,  #adAreaS {
+	padding:10px 8px 10px 14px;
+	font-size:12px;
+	font-family:"宋体", "Arial Narrow";
+}
+.adAreaA_b, .adAreaB_b, .adAreaA_t, .newsAreaA_t, .newsAreaA_b{
+	height:2px;
+}
+.adAreaB_b {
+	margin-bottom:10px
+}
+/*重点推荐*/
+#adAreaC, #adAreaE{
+	height:198px;
+}
+ #adAreaS {
+	height:284px;
+}
+#adAreaC h5, #adAreaD h5, #newsAreaD h5, #adAreaE h5,  #adAreaS h5 {
+	margin-top:-5px;
+}
+
+#adAreaS .textArea {
+	line-height:20px;
+}
+#adAreaS li {
+	line-height:23px;background:url(skin1v30.png) -400px -312px no-repeat; padding-left:12px
+}
+#adAreaS h5 {
+	padding-left:12px;
+	background:url(skin1v30.png) -400px -135px no-repeat;
+}
+/*要闻导读*/
+#newsAreaD {
+	padding:6px 10px 0px 8px;
+}
+#newsAreaD li {
+	background:url(skin1v30.png) -400px -312px no-repeat;
+	padding:0 0 0 8px;
+	line-height:22px;
+	font-size:12px;
+	font-family:"宋体", "Arial Narrow";
+}
+/*工作研究*/
+#gzyj li {
+	background:url(skin1v30.png) -400px -312px no-repeat;
+	padding:0 0 0 8px;
+	line-height:24px;
+	font-size:12px;
+	font-family:"宋体", "Arial Narrow";
+}
+/*页脚版权*/
+.footernew {
+	color:#515151;
+	text-align:center;
+	font-size:12px;
+	line-height:24px;
+	margin:0 auto;
+	padding-top:0px;
+	width:960px;
+}
+.footernew img {
+	margin:0 9px; vertical-align:middle; margin-top:9px; border:solid #000 1px
+}
+.footernew a {
+	color:#515151;
+	text-decoration:none;
+}
+.footernew a.lchot {
+	color:#bd0a01;
+}
+.footernew a:hover {
+	color:#bd0a01;
+	text-decoration:underline;
+}
+.footernew a:visited {
+	color:#515151;
+}
+.footernew p {
+	float:left;
+	width:120px;
+	height:50px;
+	border:1px solid #d2d2d2;
+	padding:0;
+	line-height:20px;
+	margin:6px;
+	font-size:12px;
+}
+.footernew .fl {
+	float:left;
+	padding:3px;
+}
+.footernew .fr {
+	float:right;
+	width:72px;
+	padding:5px 3px 0 3px;
+}
+#dyhead {
+margin-bottom: 1px; 
+}
+#dyleft {
+float: left;
+width: 230px;
+margin-left:6px;
+margin-right:6px;
+padding:6px 6px 6px 6px;
+overflow:hidden;
+}
+#dycenter {
+margin: 0 10px;
+padding:6px 6px 6px 6px;
+overflow:hidden;
+width: 230px;
+}
+#dyright {
+float: right;
+width: 230px;
+margin-left:6px;
+padding:0px 0px 0px 0px;
+overflow:hidden;
+}
+.cAreaxx {
+	width:960px;
+	margin:0 auto;
+	clear:both;
+	height:339;
+	background-image:url(http://www.bjyouth.gov.cn/img10/tu_h.gif);
+	z-index:1;
+	background-color:#FFF
+}
+.four_kh {
+	width:960px;
+	margin:0 auto;
+	clear:both;
+	z-index:1;
+	background-color:#FFF
+}
+.jcxx {
+	width:960px;
+	margin:0 auto;
+	clear:both;
+	z-index:1;
+}
+.four_kh .col-1{
+float:left;
+width:790px;height:340px;
+}
+.four_kh .col-2{
+float:left;
+margin-left:6px;
+width:162px;height:340px;
+}
+.col-2 img { margin:5px 0px}
+.clear-float{clear:both}
+#b-left{width:254px;margin:0px;padding:18px 6px 0px 10px;float:left;height:340px;}
+   #b-center{width:254px; margin:0px 0px 0px 8px;padding:18px 6px 0px 10px;float:left;height:340px;}
+   #b-right{
+   text-align:left;
+   marign:0px;
+   padding:48px 6px 0px 10px;
+   width:218px;
+   height:340px;
+   float:right;
+}
+#b-left li, #b-center li{
+	background:url(skin1v30.png) -400px -312px no-repeat;
+	padding:0 0 0 12px;
+	line-height:22px;
+	font-size:12px;
+	font-family:"宋体", "Arial Narrow";
+}
+#b-left span, #b-center span{text-align:right; display:block; margin-bottom:12px}
+#b-right li{
+	background:url(skin1v30.png) -383px -374px no-repeat;
+	padding:0 0 0 12px;
+	line-height:22px;
+	font-size:12px;
+	font-family:"宋体", "Arial Narrow";
+}
+
+.dis{display:block;}.undis{display:none;}
+#tabs1{height:23px; margin:0 auto;background-position:0 -36px;}
+#tabs1 div{float:left;height:23px;line-height:25px; font-size:12px; text-align:center; cursor:pointer;}
+#tabs1 .at{width:73px;font-weight:bold; background-position:0 0}
+#tabs1 .def{width:73px;background-position:-73px 0}
+#tabs1_con ul{padding:0 10px;margin-top:3px;}
+#tabs1_con li{border-bottom:1px dashed #c6c6c6;zoom:1;padding:4px 0;vertical-align:bottom;}
+#tabs1_con li:after{clear:both;display:block;height:0;line-height:0;visibility:hidden;}
+#tabs1_con li.nbor{border-bottom:none;}
+
+#ppInfo{padding-top:23px;width:230px;overflow:hidden;margin-bottom:10px;position:relative;color:#000000}
+#ppMenu{color:#5f5f5f;height:23px;overflow:hidden;position:absolute;top:1px;text-align:center;}
+
+
+#ppMenu ul li#ppMenu2{margin-right:0}
+#ppMainDesc{height:376px; overflow:hidden; width:220px}
+#ppMainDesc *{font-family:simsun}
+#ppMainDesc ul{padding:0 10px;margin-top:3px;}
+#ppMainDesc li{border-bottom:1px dashed #c6c6c6;zoom:1;padding:4px 0;vertical-align:bottom;}
+#ppMainDesc li:after{clear:both;content:"";display:block;height:0;line-height:0;visibility:hidden;}
+#ppMainDesc li.nbor{border-bottom:none;}
+
+#ppMainDesc span {display:block;line-height:normal;}
+#ppMainDesc em {display:inline-block;-moz-box-align:center;-moz-box-pack:center;vertical-align:bottom;/*background-image:url(/img10/scale_091019.jpg); */background-repeat:no-repeat;}
+#ppMainDesc .scale1 {background-position:0 0;}
+#ppMainDesc .scale2 {background-position:0 -77px;}
+#ppMainDesc .scale3 {background-position:0 -154px;}
+#ppMainDesc .scale4 {background-position:-76px 0;}
+#ppMainDesc .scale5 {background-position:-76px -77px;}
+#ppMainDesc .scale6 {background-position:-76px -154px;}
+#ppMainDesc .scale7 {background-position:-152px 0;}
+#ppMainDesc .scale8 {background-position:-152px -77px;}
+#ppMainDesc .scale9 {background-position:-152px -154px;}
+.ppbigimg{float:left;}
+.ppbigimg em{width:75px;height:75px}
+.ppimgtxt{float:left;line-height:17px;width:210px;}
+.ppimgtxt p.title{line-height:15px;margin-bottom:5px;padding-top:2px;}
+.ppimgtxt dfn{color:#a1a0a0;font-style:normal;}
+.ppimgtxt *{font-size:12px}
+.ppimgtxt span{color:#0f307f;display:block;padding:3px 0}
+.ppscale em{width:45px;height:41px}
+.ppscale{padding:10px 0 0 12px}
+.ppscale li{float:left;width:57px;white-space:nowrap}
+.ppscale span{display:block;margin-top:10px;width:48px;text-align:center}
+#ppMainDesc a:link,#ppMainDesc a:visited,#ppMainDesc a:hover,#ppMainDesc a:active{text-decoration:none;}
+
+.jsq{width:200px; float:left}
+.jsq img { margin:0; padding:0px; border:0px;}
+.copyright{ text-align:left; padding-left:40px;}
+
+/*--------------------------以下为页面样式表@再见理想-------------------------*/
+.kuandu {
+	width:960px;
+	margin:0 auto;
+	font-size:12px;
+}
+.kuandu a {
+	color:#000;
+	text-decoration:none;
+}
+.kuandu a:hover {
+	color:#F00;
+	text-decoration:underline;
+}
+.dtl {
+	width:auto;
+	height:30px;
+	background:url(http://www.bjyouth.gov.cn/img10/wzlBG.gif) repeat-x;
+}
+.dtl_l {
+	width:30px;
+	height:14px;
+	float:left;
+	margin-top:8px;
+	background:url(http://www.bjyouth.gov.cn/img10/wzl_l.gif) no-repeat center;
+}
+.dtl_r {
+	width:auto;
+	height:30px;
+	text-align:left;
+	float:left;
+	line-height:30px;
+}
+.dtll {
+	width:2px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/wzll.gif) no-repeat;
+}
+.dtlr {
+	width:2px;
+	height:30px;
+	float:right;
+	background:url(http://www.bjyouth.gov.cn/img10/wzlr.gif) no-repeat;
+}
+.zhuti {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #ff3300;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xianX.gif) repeat-y right;
+}
+.zhuti_l {
+	width:590px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	background:#FFF;
+	padding:20px;
+	border-right:1px solid #ff3300;
+}
+.zhuti_r {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	padding:10px;
+}
+.l_biao {
+	width:auto;
+	height:100%; /* 此列为后期增加：鼠标经过时列表背景变色IE6兼容用 */
+	overflow:auto; /* 此列为后期增加：鼠标经过时列表背景变色IE6兼容用 */
+/*	height:30px; 列表文字换行控制 */
+	border-bottom:1px dotted #CCC;
+}
+.l_biao2 {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	margin:5px auto;
+}
+.l_biao ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.l_biao2 ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.xtp {
+	width:16px;
+/*	height:30px; 列表文字换行控制 */
+	float:left;
+	margin-right:5px;
+	display:inline;
+}
+.xtp2 {
+	width:16px;
+	height:23px;
+	float:left;
+	margin-right:5px;
+	display:inline;
+}
+.neirong {
+	float:left;
+/*	height:30px; 列表文字换行控制 */
+	line-height:20px;/* 此列为后期修改：控制多行文字行间距用 */
+	width:470px;
+	margin:5px auto;/* 此列为后期增加：控制列表默认高度用 */
+/*	overflow:hidden; 列表文字换行控制 */
+}
+.sj_neirong p{
+	margin:20px auto;
+}
+.neirong2 {
+	float:left;
+	line-height:23px;
+	width:280px;
+}
+.neirong2 a {
+	color:#666;
+}
+.riqi {
+	float:right;
+	height:30px;
+	line-height:30px;
+	color:#999;
+}
+.fanye {
+	background:none;
+	background-color:#e3f1ff;
+	margin:10px auto;
+	padding:0;
+	text-align:center;
+	border:0;
+	height:40px;
+	line-height:40px;
+}
+.l_biao2_top {
+	width:auto;
+	height:30px;
+	line-height:30px;
+	margin-bottom:5px;
+	padding-left:10px;
+	background:url(http://www.bjyouth.gov.cn/img10/topimg.gif) no-repeat;
+}
+.l_biao2_top1 {
+	font-size:14px;
+	font-weight:bold;
+	color:#FF0;
+	float:left;
+	list-style-type:none;
+	margin-left:20px;
+}
+.l_biao2_top2 {
+	font-size:12px;
+	float:right;
+	list-style-type:none;
+	margin-right:20px;
+	display:inline;
+}
+.tpweizhi {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	margin-bottom:7px;
+	margin-left:2px;
+}
+.tp_img {
+	width:135px;
+	height:140px;
+	float:left;
+	margin:4px;
+	padding:3px;
+	border:1px solid #999;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:center;
+	overflow:hidden;
+}
+.tp_img img {
+	border:0;
+	margin-bottom:5px;
+}
+/*///////////////////////////////三级页面样式表///////////////////////////////*/
+.sj_neirong{
+	padding:20px;
+	line-height:25px;
+	border-bottom:1px solid #ccc;
+	font-size:14px;
+}
+.sj_biaoti{
+	text-align:center;
+	color:#F00;
+	font-size:22px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+	line-height:35px;
+}
+.sj_biaoti span{
+	width:auto;
+	height:24px;
+	line-height:24px;
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+}
+.sj_xg{
+	padding:1px 0px 1px 0px;
+}
+.sj_xg ul{
+	margin:10px 20px;
+	list-style-type:disc;
+}
+.sj_xg li{
+	line-height:20px;
+}
+.sj_divx{
+	font-weight:bold;
+	background:url(http://www.bjyouth.gov.cn/img10/xgxx.gif) repeat-x center;
+	margin:10px auto;
+}
+.sj_divx span{
+	text-align:center;
+	background:#FFF;
+	padding-right:10px;
+	font-size:14px;
+}
+.sj_nr_w{
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #CCC;
+}
+.bs_dw{
+	width:auto;
+	height:25px;
+	border-top:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	line-height:25px;
+	text-align:center;
+}
+.fb_sj{
+	width:auto;
+	height:25px;
+	background:#eeeeee;
+	line-height:25px;
+	border-bottom:1px solid #CCC;
+	text-align:right;
+}
+.fb_sj span{
+	color:#F00;
+}
+#con {
+	width: auto;
+	height: 100%;
+	overflow:auto;
+	margin: 0px auto;
+	position: relative;
+	border:1px solid transparent !important;
+	border:1px solid #fff;
+	background:#ffe8a6;
+}
+#con ul {
+	padding: 0px;
+	position: absolute;
+	margin: 0px;
+}
+#con li {
+	list-style-type: none;
+	float: left;
+	margin-right: 1px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0px;
+}
+#con li a {
+	display: block;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.tagContent {
+	clear:both;
+	float:none;
+	margin-top: 23px;
+	border: 1px solid #dedda8;
+	background-color: #fff;
+	padding:1px;
+}
+.tagContent div {
+	margin-top: 0px;
+	height: 150px;/*此处可修改*/
+	background: #f6fcfd url(http://www.bjyouth.gov.cn/img10/bg.gif) repeat-x;
+	padding: 12px;
+	display: none;
+}
+.selectedTag {
+	background: url(http://www.bjyouth.gov.cn/img10/tagleft1.gif) no-repeat left top;
+}
+.selectedTag a {
+	background: url(http://www.bjyouth.gov.cn/img10/tagright1.gif) no-repeat right top;
+	color:#015372;
+}
+.normalTag {
+	background: url(http://www.bjyouth.gov.cn/img10/tagleft1.gif) no-repeat left bottom;
+}
+.normalTag a {
+	background: url(http://www.bjyouth.gov.cn/img10/tagright1.gif) no-repeat right bottom;
+	color:#999;
+}
+.emptyTag {
+	width:100px;
+	line-height:25px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+/*///////////////////////////////基层信息样式表///////////////////////////////*/
+.zhutiB {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #7ab8a3;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xianXX.gif) repeat-y left;
+}
+.zhuti_rr {
+	width:590px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	background:#FFF;
+	padding:10px 20px 20px 20px;
+}
+.zhuti_ll {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	padding:10px;
+	border-right:1px solid #7ab8a3;
+}
+.l_biao2_topb {
+	width:auto;
+	height:30px;
+	line-height:30px;
+	margin-bottom:5px;
+	padding-left:10px;
+	background:url(http://www.bjyouth.gov.cn/img10/topimg2.gif) no-repeat;
+}
+.liebiaotoubu{
+	width:590px;
+	height:30px;
+	margin:10px auto;
+}
+.lbtb_l{
+	width:8px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_l.gif) no-repeat;
+}
+.lbtb_c{
+	width:450px;
+	height:30px;
+	float:left;
+	padding-left:24px;
+	display:inline;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_c.gif) repeat-x;
+}
+.lbtb_mone{
+	width:100px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_c.gif) repeat-x;
+}
+.lbtb_mone img{
+	border:0;
+	margin-top:1px;
+}
+.lbtb_r{
+	width:8px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_r.gif) no-repeat;
+}
+/*///////////////////////////////要闻导读样式表///////////////////////////////*/
+.zhutiC {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #5173b6;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xianXXX.gif) repeat-y right;
+}
+.zhuti_lll {
+	width:590px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	background:#FFF;
+	padding:10px 20px 20px 20px;
+}
+.zhuti_rrr {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	padding:10px;
+}
+.neirongX {
+	float:left;
+	line-height:20px;
+	width:270px;
+	margin:5px auto;
+}
+.lb_tupian{
+	width:200px;
+	height:100%;
+	overflow:auto;
+	margin-top:5px;
+	float:left;
+	text-align:left;
+}
+.lb_tpX{
+	width:178px;
+	height:100%;
+	overflow:auto;
+	padding-bottom:11px;
+/*	background:#e7e7e7; 图片背景颜色，此项可选 */
+	line-height:20px;
+	padding-left:11px;
+	text-align:left;
+}
+.lb_tpX img{
+	margin:11px auto;
+}
+.lb_tpX a{
+	font-weight:bold;
+	color:#F00;
+}
+.lb_waibu{
+	width:390px;
+	float:left;
+}
+.l_biao2_topc {
+	width:auto;
+	height:30px;
+	line-height:30px;
+	margin-bottom:5px;
+	padding-left:10px;
+	background:url(http://www.bjyouth.gov.cn/img10/topimg3.gif) no-repeat;
+}
+/*///////////////////////////////领导讲话样式表///////////////////////////////*/
+.zhutiD {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #f7b551;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xianXXXX.gif) repeat-y right;
+}
+.zhuti_left_l {
+	width:590px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	background:#FFF;
+	padding:10px 20px 20px 20px;
+}
+.zhuti_right_r {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	padding:10px;
+}
+.tp_imgB {
+	width:285px;
+	height:100px;
+	float:left;
+	margin:4px;
+	padding:3px;
+	border:1px solid #999;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:left;
+	overflow:hidden;
+}
+.tp_imgB img {
+	border:0;
+	margin-bottom:5px;
+	clear:right;
+	float:left;
+	margin-right:7px;
+}
+/*///////////////////////////////工作研究样式表///////////////////////////////*/
+.lb_tupianB{
+	width:290px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	text-align:left;
+	margin-right:10px;
+}
+.lb_waibuB{
+	width:290px;
+	float:left;
+}
+.neirongXX {
+	float:left;
+	line-height:20px;
+	width:260px;
+	margin:5px auto;
+}
+.liebiaotoubuB{
+	width:290px;
+	height:30px;
+	margin:0 auto;
+}
+.lbtb_lB{
+	width:8px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_lG.gif) no-repeat;
+}
+.lbtb_cB{
+	width:199px;
+	height:30px;
+	float:left;
+	padding-left:4px;
+	display:inline;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_cG.gif) repeat-x;
+}
+.lbtb_moneB{
+	width:71px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_cG.gif) repeat-x;
+}
+.lbtb_moneB img{
+	border:0;
+	margin-top:1px;
+}
+.lbtb_rB{
+	width:8px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_rG.gif) no-repeat;
+}
+.zhuti_r_r {
+	width:590px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	background:#FFF;
+	padding:10px 20px 20px 20px;
+}
+.zhuti_l_l {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	padding:10px;
+}
+.zhutiD {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #5173b6;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xianXXXXX.gif) repeat-y left;
+}
+.l_biao2_topg {
+	width:auto;
+	height:30px;
+	line-height:30px;
+	margin-bottom:5px;
+	padding-left:10px;
+	background:url(http://www.bjyouth.gov.cn/img10/topimg6.gif) no-repeat;
+}
+/*///////////////////////////////理论文摘样式表///////////////////////////////*/
+.dingbutu{
+	width:auto;
+	height:50px;
+	background:url(http://www.bjyouth.gov.cn/img10/dingbutupian.gif) no-repeat;
+}
+.lbtb_cBB{
+	width:270px;
+	height:30px;
+	float:left;
+	padding-left:4px;
+	display:inline;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_cG.gif) repeat-x;
+}
+.liebiaotoubuC{
+	width:306px;
+	height:30px;
+	margin:0 auto;
+}
+.lbtb_lC{
+	width:8px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_lJ.gif) no-repeat;
+}
+.lbtb_cC{
+	width:216px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_cJ.gif) repeat-x;
+}
+.lbtb_moneC{
+	width:71px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_cJ.gif) repeat-x;
+}
+.lbtb_moneC img{
+	border:0;
+	margin-top:1px;
+}
+.lbtb_rC{
+	width:8px;
+	height:30px;
+	float:left;
+	background:url(http://www.bjyouth.gov.cn/img10/lbtb_rJ.gif) no-repeat;
+}
+.l_biao2_topgC {
+	width:auto;
+	height:30px;
+	margin-bottom:5px;
+}
+/*///////////////////////////////图片列表样式表///////////////////////////////*/
+.zhutiIMG {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #ff3300;
+	margin-top:7px;
+	padding-left:2px;
+}
+.tplbgy{
+	width:280px;
+	height:215px;
+	border:1px solid #e7e7e7;
+	float:left;
+	margin:18px;
+	display:inline;
+	text-align:center;
+	padding-bottom:5px;
+	overflow:hidden;
+}
+.IMG_YS{
+	width:260px;
+	height:160px;
+	margin:10px 10px 5px 10px;
+}
+.tp_img5 {
+	width:180px;
+	height:175px;
+	float:left;
+	margin:15px 5px 5px 5px;
+	padding:1px;
+	border:1px solid #999;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:center;
+	overflow:hidden;
+}
+.tp_img5 img {
+	border:0;
+	margin-bottom:5px;
+}
+/*///////////////////////////////直属单位、网上团校、团页链接、专题活动样式表公共部分///////////////////////////////*/
+.zhuti_l_l_l {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	padding:10px;
+	background: url(http://www.bjyouth.gov.cn/img10/left_BG.gif) no-repeat #f3f389;
+}
+.zhutiDD {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #ff6600;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xian_1.gif) repeat-y left;
+}
+.left_biaoti{
+	width:100%;
+	height:50px;
+	margin-top:127px;
+	_margin-top:137px;
+}
+.l_biao0{
+	width:100%;
+	height:40px;
+	margin:5px auto;
+	line-height:40px;
+	background:url(http://www.bjyouth.gov.cn/img10/anniubeijing.png) no-repeat;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img10/anniubeijing.png');/*///兼容IE6 PNG图片不透明，注意：此处图片地址与其他样式表图片地址有别///*/
+	_background:none;/*///兼容IE6 PNG图片不透明///*/
+}
+.l_biao0 a{
+	position:relative;/*//////////兼容IE6超级链接失效//////////*/
+	font-size:14px;
+	margin-left:5px;
+}
+.l_biao0 a:hover{
+	font-weight:bold;
+}
+.l_biao0 img{
+	margin-left:15px;
+	_margin-top:13px;
+}
+/*///////////////////////////////直属单位样式表///////////////////////////////*/
+.zhuti_r_r_r {
+	width:630px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	background:#ffffe0;
+}
+.zhuti_r_r_r p{
+	font-size:14px;
+	margin:20px;
+}
+.zsdw_bt{
+	text-align:center;
+	color:#F00;
+	font-weight:bold;
+}
+.zsdw_bt span{
+	font-size:16px;
+}
+.toptoptop{
+	width:599px;
+	height:30px;
+	background:#FC6;
+	line-height:30px;
+	font-size:14px;
+	padding-left:30px;
+	font-weight:bold;
+	color:#C30;
+	margin-top:1px;
+}
+/*///////////////////////////////网上团校样式表///////////////////////////////*/
+.neirong_XX {
+	float:left;
+	line-height:20px;
+	width:265px;
+	margin:5px auto;
+}
+.neirong_XXX {
+	float:left;
+	line-height:20px;
+	width:135px;
+	margin:5px auto;
+}
+.wstx_right{
+	width:160px;
+	float:left;
+}
+.wstx_left{
+	width:130px;
+	height:100%;
+	overflow:auto;
+	float:left;
+}
+.tupianweizhi{
+	width:120px;
+	height:100px;
+	margin:20px 5px;
+	_margin:5px;
+	text-align:center;
+}
+.l_biao_c {
+	width:auto;
+	height:30px;
+	border-bottom:1px dotted #CCC;
+	background:#ffffe0;
+}
+.l_biao_d {
+	width:auto;
+	height:30px;
+	border-bottom:1px dotted #CCC;
+	background:#eef1d6;
+}
+.dibutu{
+	width:280px;
+	height:100px;
+	margin:20px auto;
+	border:1px solid #ff9900;
+	padding:1px;
+	background:#FFF;
+}
+/*///////////////////////////////团页链接样式表///////////////////////////////*/
+.l_biao00{
+	width:100%;
+	height:40px;
+	margin:5px auto;
+	line-height:40px;
+	background:url(http://www.bjyouth.gov.cn/img10/anniubeijing.png) no-repeat;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img10/anniubeijing.png');/*///兼容IE6 PNG图片不透明，注意：此处图片地址与其他样式表图片地址有别///*/
+	_background:none;/*///兼容IE6 PNG图片不透明///*/
+}
+.l_biao00 a{
+	position:relative;/*//////////兼容IE6超级链接失效//////////*/
+	font-size:14px;
+	margin-left:5px;
+	color:#C30;
+}
+.l_biao00 a:hover{
+	font-weight:bold;
+}
+.l_biao00 img{
+	margin-left:15px;
+	_margin-top:13px;
+}
+.yanse1 a{
+	color:#00F;
+	text-decoration:none;
+}
+.gengduo1{
+	float:right;
+	margin-right:30px;
+	position:relative;
+	_margin-top:1px;
+}
+.gengduo1 a{
+	font-size:14px;
+	color:#00F;
+}
+.tylj1{
+	width:auto;
+	height:100%;
+	overflow:auto;
+	background:#fff;
+}
+.tpweizhi1 {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	margin-bottom:7px;
+	margin-left:2px;
+}
+.tpweizhi11 {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	margin-bottom:7px;
+	margin-left:40px;
+}
+.tp_img1 {
+	width:135px;
+	height:110px;
+	float:left;
+	margin:4px;
+	padding:3px;
+	border:1px solid #999;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:center;
+	overflow:hidden;
+}
+.tp_img1 img {
+	border:0;
+	margin-bottom:5px;
+}
+.tp_img2 {
+	width:135px;
+	height:110px;
+	float:left;
+	margin:20px;
+	padding:3px;
+	border:1px solid #999;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:center;
+	overflow:hidden;
+}
+.tp_img2 img {
+	border:0;
+	margin-bottom:5px;
+}
+.l_biao000{
+	width:100%;
+	margin:5px auto;
+}
+/*///////////////////////////////专题活动样式表///////////////////////////////*/
+.dibutu1{
+	width:280px;
+	height:100px;
+	margin:10px auto;
+	border:1px solid #ff9900;
+	padding:1px;
+	background:#FFF;
+}
+/*///////////////////////////////组织机构样式表///////////////////////////////*/
+.zhutiDD {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #ff6600;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xian_1.gif) repeat-y left #ffffe0;
+}
+.zhuti_l_l_l1 {
+	width:306px;
+	height:100%;
+	overflow:auto;
+	float:left;
+	padding:10px;
+	background: url(http://www.bjyouth.gov.cn/img10/zuzhijigouBG2.png) no-repeat #fff;
+}
+.zhuti_r_r_r1 {
+	width:630px;
+	height:100%;
+	overflow:auto;
+	float:right;
+	text-align:center;
+}
+.zhuti_r_r_r1 p{
+	margin:15px 10px;
+	text-indent: 2em;
+	line-height:25px;
+	text-align:left;
+	font-size:14px;
+}
+.biaoti00{
+	font-size:24px;
+	font-weight:bold;
+	color:#F00;
+	line-height:50px;
+}
+.mingzi{
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	color:#000;
+}
+.l_biao0000{
+	width:100%;
+	margin:5px 0;
+}
+.hengxian2{
+	height:2px;
+	width:auto;
+	background:url(http://www.bjyouth.gov.cn/img10/hr1.gif) repeat-x;
+	margin:10px 0;
+}
+.tpweizhi3 {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	margin-left:16px;
+	margin-top:15px;
+}
+.tp_imgCC {
+	width:570px;
+	height:120px;
+	float:left;
+	margin:4px;
+	padding:3px;
+	border:1px solid #e3e3e3;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:left;
+	color:#888;
+	padding-right:10px;
+}
+.tp_imgCC img {
+	border:0;
+	margin-bottom:5px;
+	clear:right;
+	float:left;
+	margin-right:7px;
+}
+/*///////////////////////////////文件查询样式表///////////////////////////////*/
+.l_biao3 {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	margin:0;
+}
+.l_biao3 ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.xtp3 {
+	width:16px;
+	float:left;
+	margin-right:5px;
+	margin-left:30px;
+	display:inline;
+}
+.neirong3 {
+	float:left;
+	width:250px;
+}
+.neirong3 a {
+	color:#666;
+}
+.l_biao3_topb {
+	width:auto;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	background:#ffd99c;
+}
+.l_biao2_top1x {
+	font-size:22px;
+	font-weight:bold;
+	color:#FF0000;
+	float:left;
+	list-style-type:none;
+	margin-left:10px;
+}
+.zuocebj{
+	height:100%;
+	overflow:auto;
+}
+.zitihuangse{
+	color:#FF0;
+}
+.chaxun_top{
+	width:390px;
+	height:120px;
+	background:url(http://www.bjyouth.gov.cn/img10/chaxunbeijing.gif) no-repeat;
+	margin-bottom:5px;
+	padding-left:200px;
+	color:#F00;
+}
+.chaxunbiaoti{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	color:#F00;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"黑体";
+	text-align:center;
+}
+#container {
+	width: auto;
+}
+#container H1 {
+	margin: 0px;
+	width: auto;
+	cursor: pointer;
+	line-height: 30px;
+}
+#container H1 a {
+	display: block;
+	padding: 0 50px;
+	width: auto;
+	height: 30px;
+	line-height:30px;
+	text-decoration: none;
+	moz-outline-style: none;
+	background:url(http://www.bjyouth.gov.cn/img10/zuocehang.gif) no-repeat;
+	font-size:24px;
+	font-weight:bold;
+	font-family:"黑体";
+}
+.content {
+	padding-left: 20px;
+	background:#fff5ea;
+}
+.cjlj{
+	color:#ff3300;
+}
+/*///////////////////////////////光辉历程样式表///////////////////////////////*/
+.tupianX{
+	float:left;
+}
+.spanX{
+	color:#F00;
+	font-weight:bold;
+	font-size:14px;
+}
+.div1{
+	float:left;
+}
+.div2{
+	float:left;
+	width:460px;
+	padding:15px;
+}
+.div3{
+	width:auto;
+	height:100%;
+	overflow:auto;
+	padding:20px 0 20px 0;
+	background:#fadd99;
+}
+.lb_waibuX{
+	float:left;
+	padding:5px;
+	height:140px;
+}
+/*///////////////////////////////理论文献样式表///////////////////////////////*/
+.zhutiDX {
+	width:auto;
+	height:100%;
+	overflow:auto;
+	border:1px solid #5173b6;
+	margin-top:7px;
+	background:url(http://www.bjyouth.gov.cn/img10/xian1X.gif) repeat-y right;
+}
+.lb_waibu2{
+	width:380px;
+	float:left;
+	margin-top:30px;
+	padding:5px;
+}
+.lb_waibu3{
+	width:380px;
+	float:left;
+	padding:5px;
+}
+.zitihongse{
+	color:#F00;
+}
+.neirongX1 {
+	float:left;
+	height:25px;
+	line-height:20px;
+	width:350px;
+	margin:5px auto;
+}
+.tp_img6 {
+	width:135px;
+	height:81px;
+	float:left;
+	margin:2px;
+	padding:3px;
+	border:1px solid #999;
+	display:inline;
+	background:#FFF;
+	line-height:18px;
+	text-align:center;
+	overflow:hidden;
+}
+.xianzhigao{
+	height:100%;
+	overflow:auto;
+}
